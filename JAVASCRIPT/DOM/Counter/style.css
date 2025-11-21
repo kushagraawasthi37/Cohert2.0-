@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.box {
+    padding: 10px;
+    margin-top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background: linear-gradient(rgb(3, 163, 231), blue);
+}
+
+
+#inc {
+    background: palegreen;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+#dec {
+    background: burlywood;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

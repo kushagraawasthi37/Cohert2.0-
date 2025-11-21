@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    color: white;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background: #685757;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box {
+    background: linear-gradient(pink, blue);
+    height: 200px;
+    width: 200px;
+    border: 2px solid wheat;
+    border-radius: 5px;
+}
+
+button {
+    padding: 0.6rem 1rem;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(rgb(69, 13, 202), rgb(207, 21, 21));
+}
+
+button:active {
+    scale: 0.95;
+}
