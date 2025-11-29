@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 200%;
+    width: 200%;
+    background-color: #191917;
+    color: rgb(254, 164, 164);
+    cursor: none;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+
+#cursor {
+    height: 20px;
+    width: 20px;
+    transform: translate(-50%, -50%);
+    /* position: absolute;  ye scroll par kaam nahikarega to fixed dedo*/
+    position: fixed;
+}
