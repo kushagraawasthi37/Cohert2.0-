@@ -10,12 +10,27 @@ html {
     width: 100%;
     background-color: #111;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 body {
     display: flex;
     justify-content: center;
+    font-family: monospace;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.heading {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Weather-info {
+    background: linear-gradient(to right bottom, rgb(178, 140, 140), orange);
+    width: 40%;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
 }
